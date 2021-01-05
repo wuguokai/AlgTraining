@@ -1,3 +1,5 @@
+package wgk.alg.training;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -13,9 +15,9 @@ public class testKaoQin {
         String startTime = "23:00";
         String endDate ="2017-10-08";
         String endTime = "22:00";
-        Map<String, String> ondutydateMap = new HashMap<>();
-        Map<String, String> offdutydateMap = new HashMap<>();
-        Map<String, Double> hoursMap = new HashMap<>();
+        Map<String, String> ondutydateMap = new HashMap<String, String>();
+        Map<String, String> offdutydateMap = new HashMap<String, String>();
+        Map<String, Double> hoursMap = new HashMap<String, Double>();
         ondutydateMap.put("2017-10-06", "19:52");
         offdutydateMap.put("2017-10-06", "23:02");
         ondutydateMap.put("2017-10-07", "");
